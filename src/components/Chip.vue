@@ -1,0 +1,35 @@
+<template>
+    <div class="chip"> <slot> </slot> </div>
+</template>
+
+
+<script>
+
+export default {
+    name: 'Chip',
+}
+</script>
+
+<style lang="scss" scoped>
+
+
+.chip {
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e4e4e4;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+
+</style>
+
+
+
