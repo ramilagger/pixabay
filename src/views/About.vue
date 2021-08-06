@@ -8,7 +8,7 @@
         <b-card-img :src='item.largeImageURL' alt="Image" class="rounded-0"></b-card-img>
       </b-col>
       <b-col md="6">
-        <b-card-body title="Our Cat Details">
+        <b-card-body class= 'cat-details' title="Our Cat Details">
            <span class="icon"> <b-icon-heart> </b-icon-heart> {{item.likes}} </span> 
            <span class='icon'> <b-icon-chat> </b-icon-chat> {{item.comments}} </span>
            <span class='icon'> <b-icon icon="cloud-download" aria-hidden="true"></b-icon>  {{item.downloads}} </span> 
@@ -55,7 +55,13 @@ span.icon {
 }
 .user-details {
   position: absolute;
-    bottom: 20px;
+  bottom: 0;
 }
+.cat-details {
+  position: relative;
+  min-height: 140px;
+}
+
+
 
 </style>
