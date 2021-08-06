@@ -119,6 +119,9 @@ export default {
         margin-top: 20px;
 
   }
+  .reset {
+    margin-top: 20px;
+  }
 
 }
 
