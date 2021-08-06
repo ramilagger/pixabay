@@ -14,8 +14,6 @@
     <div  class="filter">
         <b-form-input v-model="filter" @keyup='infoFiltered()'> </b-form-input>
 
-        <div class="mt-2">Value: {{ filter }}</div>
-
 
           <b-button class='reset' variant="danger" @click="resetFilters">Reset Filters</b-button>
 
